@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>453</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>231</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>5. Cifar10</string>
+    </property>
+    <widget class="QSplitter" name="splitter">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>221</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QPushButton" name="lm">
+      <property name="text">
+       <string>Load Image</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn5_1">
+      <property name="text">
+       <string>1. Show Training Image</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn5_2">
+      <property name="text">
+       <string>2. Show Model Structure</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn5_3">
+      <property name="text">
+       <string>5.3 Show Data Augmentation Result </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn5_4">
+      <property name="text">
+       <string>5.4 Show Accuracy and Loss</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn5_5">
+      <property name="text">
+       <string>5.5 Inference</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>50</y>
+      <width>480</width>
+      <height>380</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>480</width>
+      <height>380</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
